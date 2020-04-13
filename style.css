@@ -1,0 +1,41 @@
+html{
+  background-color:#f5f5f5;
+}
+#search-container{
+  padding: 2rem;
+  text-align:center;
+}
+#stock-container{
+  margin:1rem;
+  padding: 2rem;
+  text-align:center;
+}
+#stockName{
+  margin: 0;
+  font-size: 22px;
+}
+#score{
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+#price, #icon{
+  font-size: 24px;
+  margin: 1rem;
+  color:green;
+}
+
+
+  #stockSymbolsList{background:rgba(0,0,0,0.7); 
+    width:20%;
+    float: left;
+    margin-right:2rem;
+    font-size:25px;
+    text-align:center;
+    color:white;
+    letter-spacing: 0em;
+    line-height:45px;
+    padding:20px;
+  
+   }
+  

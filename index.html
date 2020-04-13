@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>StockPrice App</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body >
+    <div id="stockSymbolsList"> 
+    </div>
+    <div id="search-container">
+      <input class="searchControl" type="text" placeholder="Enter Stock Symbol" id= "searchInput"> 
+      <button class="searchControl" text="search" id="searchButton">Search</button>
+    </div>
+    <hr>
+    <div id="stock-container">
+        <div id="stockDescription">
+          <h1 id="stockName"></h1>
+          <h2 id="companyName"></h2>
+            <div id="score"></div>
+            <div id="price"></div>
+            <div><img id="icon"></div>
+            <div id="companyDescription"></div>
+        </div>
+    </div>
+      <footer class="footer"></footer>
+    <script src="script.js"></script> 
+  </body>
+</html>
