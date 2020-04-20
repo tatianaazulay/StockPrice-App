@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 $.getJSON("https://financialmodelingprep.com/api/v3/company/stock/list",function(data){
     let i;
     let text = "";
