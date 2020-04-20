@@ -1,4 +1,4 @@
-# StockPrice-App
+# StockPrice-App-Auto-deploying-to-gh-pages-withTravis
 This is a small application that prompts you to "Enter Stock Symbol". 
 The app retrieves and displays the stock price and some company info for that stock. <br>
 This includes short company description, stock score, and the logo of the company.<br>
@@ -19,7 +19,7 @@ This is an example of Travis CI log after the test has failed (js code errors we
 This is an example of Travis CI log after the test and build have completed successfully:<br>
 ![](assets/travis-log-success.jpg)<br>
 Travis CI automatically deploys the app to gh-pages only after the test and build have completed successfully.<br>
-
+<bold>Deployed@:</bold><br>
 https://tatianaazulay.github.io/StockPrice-App/<br>
 <br>
 ![](assets/Untitled.png)
