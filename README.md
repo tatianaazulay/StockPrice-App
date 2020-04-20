@@ -1,4 +1,4 @@
-# StockPrice-App-Auto-deploying-to-gh-pages-withTravis
+# StockPrice-App-Auto-deploying-to-gh-pages-with-Travis-CI
 This is a small application that prompts you to "Enter Stock Symbol". 
 The app retrieves and displays the stock price and some company info for that stock. <br>
 This includes short company description, stock score, and the logo of the company.<br>
