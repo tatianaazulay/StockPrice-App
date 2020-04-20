@@ -18,7 +18,7 @@ This is an example of Travis CI log after the test has failed<br>
 ![](assets/travis-log-failed.jpg)<br>
 This is an example of Travis CI log after the test and build have completed successfully.<br>
 ![](assets/travis-log-success.jpg)<br>
-Travis deploys the app to gh-pages only after only after the test and build have completed successfully.<br>
+Travis deploys the app to gh-pages only after the test and build have completed successfully.<br>
 
 https://tatianaazulay.github.io/StockPrice-App/<br>
 <br>
