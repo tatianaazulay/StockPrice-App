@@ -6,7 +6,7 @@ $.getJSON("https://financialmodelingprep.com/api/v3/company/stock/list",function
     text += data.symbolsList[i].symbol+`<br/>`;
 }
 $('#stockSymbolsList').append(text);
-})
+});
 
 function searchStock(searchTerm) {
     fetch (`https://financialmodelingprep.com/api/v3/company/profile/${searchTerm}`).then(data =>{
@@ -14,12 +14,12 @@ function searchStock(searchTerm) {
     }).then (data =>{
         console.log(data);
         init(data);
-    })
+    });
     fetch(`https://financialmodelingprep.com/api/v3/company/rating/${searchTerm}`).then(data =>{
         return data.json();
     }).then(data =>{
        rating(data);
-   })
+   });
 }
 
 function rating(resultFromServer){
@@ -41,4 +41,4 @@ document.getElementById('searchButton').addEventListener('click',()=>{
 let searchTerm = document.getElementById('searchInput').value;
 if(searchTerm)
 searchStock(searchTerm);
-})
+});
