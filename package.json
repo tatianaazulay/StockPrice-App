@@ -1,0 +1,12 @@
+{   
+    "name": "travis-deploy-to-gh-pages",
+    "version": "0.0.1",
+    "homepage": "https://tatianaazulay.github.io/StockPrice-App/",
+    "description": "Automatically deploys the app to GitHub Pages using Travis CI",
+    "devDependencies": {
+        "jshint": "^2.11.0"
+      },
+      "scripts": {
+        "test": "jshint script.js"
+      }
+  }

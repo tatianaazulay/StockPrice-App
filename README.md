@@ -7,6 +7,15 @@ https://financialmodelingprep.com/developer/docs/<br>
 Examples of Stock Symbols are displayed on the html page, they are retrieved from this API end point https://financialmodelingprep.com/api/v3/company/stock/list .<br>
 The Web app is split into HTML, CSS and JavaScript +jQuery<br>
 <br>
+<strong>Continuous integration with Travis CI</strong><br>
+Travis automatically scans the repo and looks for the .travis.yml file which informs travis this is a node.js app.<br>
+Minimal configuration of .travis.yml for this app:<br>
+![](assets/yml.jpg)<br>
+Travis also looks for a package.json file, downloads all the modules listed in devDependencies and runs specified scripts.<br>
+The package.json tells Travis to run jshint on our script.js file. 
+jshint is a program that analysis code quality,
+Travis deploys the app to gh-pages only after a successfull test and build.<br>
+
 https://tatianaazulay.github.io/StockPrice-App/<br>
 <br>
-![](Untitled.png)
+![](assets/Untitled.png)
