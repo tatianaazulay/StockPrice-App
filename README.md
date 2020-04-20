@@ -10,14 +10,15 @@ The Web app is split into HTML, CSS and JavaScript +jQuery<br>
 <strong>Continuous integration with Travis CI</strong><br>
 Travis automatically scans the repo and looks for the .travis.yml file which informs travis this is a node.js app.<br>
 Minimal configuration of .travis.yml for this app:<br>
-![](assets/yml.jpg){:height="60%" width="60%"}<br>
+![](assets/yml.jpg  | width=200)<br>
 Travis also looks for a package.json file, downloads all the modules listed in devDependencies and runs specified scripts.<br>
 The package.json tells Travis to run jshint on our script.js file. 
 jshint is a program that analysis code quality<br>
-This is the example of Travis CI log after failed test and build<br>
-![](assets/travis-log-failed.jpg){:height="60%" width="60%"}<br>
+This is an example of Travis CI log after failed test and build<br>
+![](assets/travis-log-failed.jpg  | width=60%)<br>
+Travis log after successfull test and build<br>
+![](assets/travis-log-success.jpg  | width=60%)<br>
 Travis deploys the app to gh-pages only after a successfull test and build.<br>
-
 
 https://tatianaazulay.github.io/StockPrice-App/<br>
 <br>
