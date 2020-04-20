@@ -14,11 +14,11 @@ Minimal configuration of .travis.yml for this app:<br>
 Travis also looks for a package.json file, downloads all the modules listed in devDependencies and runs specified scripts.<br>
 The package.json tells Travis to run jshint on our script.js file. 
 jshint is a program that analysis code quality<br>
-This is an example of Travis CI log after failed test and build<br>
+This is an example of Travis CI log after the test has failed<br>
 ![](assets/travis-log-failed.jpg)<br>
-Travis log after successfull test and build<br>
+This is an example of Travis CI log after the test and build have completed successfully.<br>
 ![](assets/travis-log-success.jpg)<br>
-Travis deploys the app to gh-pages only after a successfull test and build.<br>
+Travis deploys the app to gh-pages only after only after the test and build have completed successfully.<br>
 
 https://tatianaazulay.github.io/StockPrice-App/<br>
 <br>
