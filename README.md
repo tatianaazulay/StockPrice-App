@@ -13,7 +13,7 @@ Minimal configuration of .travis.yml for StockPrice-App:<br>
 <a href="url"><img src="https://github.com/tatianaazulay/StockPrice-App/blob/master/assets/yml.jpg" width="60%" ></a><br>
 Travis also looks for a package.json file, downloads all the modules listed in devDependencies and runs specified scripts.<br>
 The package.json tells Travis to run jshint on our script.js file.<br>
-jshint is a program that analyzes js code quality.<br>
+jshint is a tool to analyze js code quality.<br>
 This is an example of Travis CI log after the test has failed (js code errors were inserted intentionally):<br>
 ![](assets/travis-log-failed.jpg)<br>
 This is an example of Travis CI log after the test and build have completed successfully:<br>
